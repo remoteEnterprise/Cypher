@@ -9,7 +9,7 @@ package transposicoesgeometricas;
  *
  * @author leonardo
  */
-public class TransposicaoGeometricaLinearStrategy extends TransposicaoGeometricaColunar implements StrategyCypher {
+public class TransposicaoGeometricaLinearStrategy extends TransposicaoGeometricaColunarStrategy implements StrategyCypher {
 
     @Override
     public String encrypt(Cypher cypher) {
